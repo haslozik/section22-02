@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#content-box {
+    width: 1224px;
+    height: 500px;
+    margin: 200px auto;
+}
+
+#img1 {
+    float: left;
+    width: 600px;
+    height: 500px;
+    background: #f4f4f2;
+    position: relative;
+}
+
+#img1 span, #img2 span, .img34 span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding: 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#img1 span::after {
+    position: absolute;
+    content: '';
+    bottom: 60px;
+    left: 22px;
+    width: 1px;
+    height: 35px;
+    background: #e5523e;
+}
+
+#img2 span::after {
+    position: absolute;
+    content: '';
+    bottom: 38px;
+    left: 22px;
+    width: 1px;
+    height: 35px;
+    background: #e5523e;
+}
+
+.img34 span::after {
+    position: absolute;
+    content: '';
+    bottom: 87px;
+    left: 22px;
+    width: 1px;
+    height: 35px;
+    background: #e5523e;
+}
+
+#img2 {
+    float: right;
+    width: 600px;
+    height: 238px;
+    margin: 0 0 12px 24px;
+    background: #f4f4f2;
+    position: relative;
+}
+
+.img34 {
+    float: right;
+    margin: 12px 0 0 24px;
+    width: 288px;
+    height: 238px;
+    background: #f4f4f2;
+    position: relative;
+}
+
+#img1, #img2, .img34 {
+    cursor: pointer;
+}
+
+#img1:hover, #img2:hover, .img34:hover {
+    background: linear-gradient(rgba(64, 64, 64, .65),
+    rgba(64, 64, 64, .65)),
+    #f4f4f2;
+    color: #fff;
+}
