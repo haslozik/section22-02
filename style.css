@@ -91,8 +91,18 @@
 }
 
 #img1:hover, #img2:hover, .img34:hover {
-    background: linear-gradient(rgba(64, 64, 64, .65),
-    rgba(64, 64, 64, .65)),
-    #f4f4f2;
-    color: #fff;
+    animation-name: hoverAnimation;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoverAnimation {
+    0% {
+        background: #f4f4f2;
+    }
+
+    100% {
+        background: rgba(94, 94, 94);
+        color: #fff;
+    }
 }
