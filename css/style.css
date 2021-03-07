@@ -117,45 +117,5 @@
 }
 
 /*///////////////////////*/
-/*slider top prod section*/
+/*slider top product section*/
 /*///////////////////////*/
-
-#slider-content {
-    width: 100%;
-    height: 80vh;
-}
-
-#slider {
-    width: 60%;
-    margin: 0 auto;
-}
-
-#textProducts {
-    width: 20%;
-    margin: 0 auto;
-    height: 100px;
-    min-width: 300px;
-    position: relative;
-    text-align: center;
-}
-
-#textProducts h1 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    color: #444;
-    text-align: center;
-    position: relative;
-}
-
-h1::after {
-    content: ' ';
-    position: absolute;
-    bottom: 95px;
-    left: 142px;
-    width: 35px;
-    height: 1px;
-    background: #e5523e;
-}
-
-
