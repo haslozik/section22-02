@@ -3,11 +3,12 @@
     padding: 0;
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
+    overflow-x: hidden;
 }
 
 #content {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-items: center;
 }
@@ -116,6 +117,109 @@
     background-position: center;
 }
 
+
 /*///////////////////////*/
 /*slider top product section*/
 /*///////////////////////*/
+#slide-content {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+#slide-box {
+    width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.glide__arrow--left {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    background: transparent;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.glide__arrow--right {
+    position: absolute;
+    top: 150px;
+    right: 8px;
+    background: transparent;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.glide__slide h5 {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #666;
+    font-size: 10px;
+}
+
+.glide__slide h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+.glide__slide h3 {
+    text-align: center;
+    font-weight: 700;
+    color: #e5523e;
+    font-size: 15px;
+}
+
+/*top products*/
+#titleProd {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: -50px;
+    height: 80px;
+    text-align: center;
+}
+
+#titleProd h1 {
+    font-size: 45px;
+    color: #444;
+    position: relative;
+}
+
+#titleProd h1::before {
+    position: absolute;
+    left: 100px;
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: #e5523e;
+}
+
+#imgSale {
+    position: relative;
+}
+
+#imgSale::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid red;
+    border-left: 60px solid transparent;
+}
+
+
+
+
+/*WP3TP*/
