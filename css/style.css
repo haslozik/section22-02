@@ -219,7 +219,13 @@
     border-left: 60px solid transparent;
 }
 
+.glide__slide img{
+    transition: .2s;
+}
 
+.glide__slide img:hover {
+    transform: scale(1.05);
+}
 
 
 /*WP3TP*/
