@@ -127,6 +127,7 @@
     display: flex;
     align-items: center;
 }
+
 #slide-box {
     width: 1024px;
     height: 500px;
@@ -180,6 +181,14 @@
     font-size: 15px;
 }
 
+.glide__slide img{
+    transition: .2s;
+}
+
+.glide__slide img:hover {
+    opacity: .8;
+}
+
 /*top products*/
 #titleProd {
     width: 300px;
@@ -219,13 +228,6 @@
     border-left: 60px solid transparent;
 }
 
-.glide__slide img{
-    transition: .2s;
-}
-
-.glide__slide img:hover {
-    transform: scale(1.05);
-}
 
 
 /*WP3TP*/
