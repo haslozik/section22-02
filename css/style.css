@@ -213,21 +213,6 @@
     background-color: #e5523e;
 }
 
-#imgSale {
-    position: relative;
-}
-
-#imgSale::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border-top: 60px solid red;
-    border-left: 60px solid transparent;
-}
-
 
 
 /*WP3TP*/
